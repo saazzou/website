@@ -1,4 +1,4 @@
-baseURL = "localhost:1313"
+baseURL = "https://master.d279o48eg4rugd.amplifyapp.com"
 languageCode = "en-us"
 title = "My Portfolio Website"
 theme = "hugo-lodi-theme"
