@@ -2,7 +2,7 @@
     <div class="process">
         <div class="header">
             <h1 class="title">{{ .Site.Params.Process.Title }}</h1>
-            <h2 class="subtitle">{{ .Site.Params.Process.Subtitle }}</h2>
+            <h2 class="subtitle-left">{{ .Site.Params.Process.Subtitle }}</h2>
         </div>
         <div class="process-wrapper">
             {{ range $element := sort .Site.Data.process "weight" }}

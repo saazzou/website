@@ -1,7 +1,8 @@
 <section style="padding-top: 120px;" id="scroll-element" data-scroll-index="0">
     <div class="hero">
         <div class="hero-left">
-            <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Hero.Avatar }}" style="max-width: 50%; border-radius: 50%; ">
+            <img src="{{ .Site.BaseURL }}img/{{ .Site.Params.Hero.Avatar }}" style="display: block; max-width: 50%; border-radius: 50%; margin-left: auto; margin-right: auto;">
+            <h2 class="hero-name">{{ .Site.Params.Hero.name }}</h2>
             <h2 class="subtitle">{{ .Site.Params.Hero.subtitle }}</h2>
             <div class="icons">
                 {{ if isset .Site.Params "email" }}
